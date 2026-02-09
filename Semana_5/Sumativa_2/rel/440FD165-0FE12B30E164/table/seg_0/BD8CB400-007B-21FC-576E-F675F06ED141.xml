@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD8CB400-007B-21FC-576E-F675F06ED141" name="CLIENTE">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>B6DABA6D-02D1-E0FF-2ED8-9A8D10B8A7A0</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="AF50D1F3-D1BE-83E3-CFF7-6782371EB857">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>4F423918-7A55-73FB-E3A4-556B74D020C0</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cli" id="3B668D7F-CEB7-3232-D3EC-DCAF3945FC3E">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>002F9AB4-CC32-7E36-A71C-8BFB03509582</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_cli" id="4B308CAA-C0FE-D75E-F2DF-74787A9519C7">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>21E01B0C-7D3E-5638-B3B2-B864F8DB5ABD</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14270B41-4BE9-EC21-D99B-692CF5165117" name="PK_CLIENTE">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>684BBC8D-1386-B0AC-91B0-6BE2EB990C0C</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF50D1F3-D1BE-83E3-CFF7-6782371EB857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

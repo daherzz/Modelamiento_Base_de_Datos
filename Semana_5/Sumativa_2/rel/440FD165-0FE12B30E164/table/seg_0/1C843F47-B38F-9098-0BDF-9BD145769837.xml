@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C843F47-B38F-9098-0BDF-9BD145769837" name="MODELO">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>D4B3A7D5-F80D-7F50-D951-B287D675C470</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modelo" id="2E54AAC5-1AF5-F066-A299-6C6D02009C33">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>3982F836-C6CF-0D05-C35B-B67BEB2D2629</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_modelo" id="DE8AA68D-39E5-E29B-63AF-DBD628349527">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>30B59894-9E2B-B02B-5266-0D0A7E568D24</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARCA_id_marca" id="CB2C22B1-EB8C-4FA1-05B8-1D501DDB210D">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>C101843E-80ED-9DED-3B87-D3019D14D22D</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42F8D90C-EA14-748D-9F29-97162BCF094C" referredColumn="F42ABBA6-B81C-C717-2386-458948235F08"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_id_producto" id="038FB807-ECFC-D150-7D03-1EFF1EDFBC83">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>4134FFCB-6C13-48AF-D9B2-4DAE2CA15EB5</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF597A7F-DF26-68B0-6AE3-BDC4542DDB4C" referredColumn="E05AFE00-6595-C2DA-6509-1356BE4641F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CC7D513-9D51-0599-BCEB-53E1E40CD4CB" name="PK_MODELO">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>316370C9-0DE6-95DE-84DD-0B41CAB43BDB</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E54AAC5-1AF5-F066-A299-6C6D02009C33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCE3A2F6-E6D2-F331-8951-8524BF1D883D" name="MODELO_MARCA_FK">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>B84AC432-40AC-CA5F-1F6A-77F0285BD704</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB2C22B1-EB8C-4FA1-05B8-1D501DDB210D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8635DA1D-4B31-756F-A7B2-5D3BF87A6378" name="MODELO_PRODUCTO_FK">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>2EFE5399-56A3-095B-3001-2852042EE568</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="038FB807-ECFC-D150-7D03-1EFF1EDFBC83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

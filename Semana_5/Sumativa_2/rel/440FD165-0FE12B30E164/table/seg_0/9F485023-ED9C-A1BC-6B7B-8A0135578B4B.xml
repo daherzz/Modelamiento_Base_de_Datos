@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F485023-ED9C-A1BC-6B7B-8A0135578B4B" name="COMUNA">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>AD5A36B7-D168-87BD-52B9-943310817553</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="803D3104-A7E8-957B-274D-5D37558864AA">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>0217BC1A-4F48-AE9A-E5F1-A94ABA18DB2D</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_comuna" id="CD1CE7CC-8151-1D2A-C692-B6D7BE6A4173">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>8E1AAD01-6C73-EE36-0802-15526AE830F5</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sucursal" id="73BC7E8B-6360-CBD8-DBAB-F4E222D68F58">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>75D1A22F-F99F-26A7-56DB-3B6AC63420B3</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9924E5A5-6668-0458-A7B9-F4F273FD299B" name="PK_COMUNA">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>EC99FCF9-D3AA-B6AF-881B-9B0FE267E8F2</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="803D3104-A7E8-957B-274D-5D37558864AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

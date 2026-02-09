@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F944B0D-ABEA-92DE-BB0F-DBDC30041874" name="SUMINISTRA">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:48 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<ordsAlias>relation_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_id_producto" id="5ADED606-798B-BFE5-3DF6-EAA644E1B008">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:48 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06D43935-3EDD-1E6A-6BC9-1EF913085D61" referredColumn="E05AFE00-6595-C2DA-6509-1356BE4641F4"/>
+</associations>
+</Column>
+<Column name="PROOVEDOR_id_proveedor" id="503AAFC7-31AB-46F0-15BB-F285A4498CEC">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:48 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6E23AF3-5123-7366-B409-F65EEA0E3BAD" referredColumn="31904F7A-CFFA-B9D5-B0A8-6F58A232DCFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF455856-2346-2123-3224-527E96067204" name="PK_PROVEE">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:48 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADED606-798B-BFE5-3DF6-EAA644E1B008"/>
+<colUsage columnID="503AAFC7-31AB-46F0-15BB-F285A4498CEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED879B75-A73C-7210-C3FF-C3F125932DEB" name="Relation_8_PRODUCTO_FK">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:48 UTC</createdTime>
+<generatorID>AD2E0FDF-39E6-156A-A22B-69452D521CC5</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADED606-798B-BFE5-3DF6-EAA644E1B008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89F1B1C5-1B37-93EF-244B-DB98563C47E9" name="Relation_8_PROOVEDOR_FK">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:48 UTC</createdTime>
+<generatorID>AD2E0FDF-39E6-156A-A22B-69452D521CC5</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="503AAFC7-31AB-46F0-15BB-F285A4498CEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

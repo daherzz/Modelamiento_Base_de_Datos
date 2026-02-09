@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2F93661-3E8D-97E6-1A16-68F5669C03FE" name="SUCURSAL">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>F577F8B2-A467-BE8F-3388-63A876B16EDC</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sucursal" id="56570600-D5F2-5320-661C-2EF47F0CA4E4">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>4C7EA3A5-6188-65D5-0648-7C6100EEC1B6</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_sucursal" id="AB44541C-CBC7-2FA9-9647-42F9A4DA35C3">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>C077D857-CD2C-26BD-799E-3A7D5AEFDA76</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA_id_comuna" id="29A1E2D1-459D-06EC-B6FD-D552B1C2557E">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>5462ED46-70FE-2FCB-08A6-CB0F28A57FDD</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F04A919-C2F9-CC9A-71AD-ED27FE859425" referredColumn="803D3104-A7E8-957B-274D-5D37558864AA"/>
+</associations>
+</Column>
+<Column name="BOLETA_id_boleta" id="966F727B-88FB-B621-D224-F6FCA9019CC0">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>D7A9D0EF-E547-27B8-F6CA-3A3690A5624C</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02B08296-7242-45DF-F6DE-6A11C0F7D21B" referredColumn="0DB6C0D3-C0F1-12C3-1FFB-51CC537284B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7B3A0AF-6DE4-166E-9E0E-6B0C74288437" name="PK_SUCURSAL">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>30B160E7-1543-98DF-E324-143EA4764EA8</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56570600-D5F2-5320-661C-2EF47F0CA4E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3216FCE4-4DF0-86CF-0AD4-6165E0F1D123" name="SUCURSAL_COMUNA_FK">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>D2655865-8F67-E355-C15A-93F63CE7D3EB</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29A1E2D1-459D-06EC-B6FD-D552B1C2557E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6231B24E-FF30-4022-F8CF-0CC4D1E796F5" name="SUCURSAL_BOLETA_FK">
+<createdBy>dehr_</createdBy>
+<createdTime>2026-02-09 14:42:47 UTC</createdTime>
+<generatorID>406D226D-0406-858B-2342-17E13B148432</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="966F727B-88FB-B621-D224-F6FCA9019CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
